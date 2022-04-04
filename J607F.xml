@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="bigsaltyfishes" fetch="https://github.com/bigsaltyfishes/" />
+
+<!-- Device Tree for J607F  -->
+<project path="device/lenovo/J607F" name="device_lenovo_J607F" remote="bigsaltyfishes" revision="twelve" />
+
+<!-- Vendor Blobs for J607F  -->
+<project path="vendor/lenovo/J607F" name="vendor_lenovo_J607F" remote="bigsaltyfishes" revision="eleven" />
+
+<!-- Kernel for J607F  -->
+<project path="kernel/lenovo/J607Z" name="kernel_lenovo_J607Z" remote="bigsaltyfishes" revision="eleven" />
+
+</manifest>
