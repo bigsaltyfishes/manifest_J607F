@@ -3,7 +3,7 @@
 <remote name="bigsaltyfishes" fetch="https://github.com/bigsaltyfishes/" />
 
 <!-- Device Tree for J607F  -->
-<project path="device/lenovo/J607F" name="device_lenovo_J607F" remote="bigsaltyfishes" revision="twelve" />
+<project path="device/lenovo/J607F" name="device_lenovo_J607F" remote="bigsaltyfishes" revision="snowland" />
 
 <!-- Vendor Blobs for J607F  -->
 <project path="vendor/lenovo/J607F" name="vendor_lenovo_J607F" remote="bigsaltyfishes" revision="eleven" />
