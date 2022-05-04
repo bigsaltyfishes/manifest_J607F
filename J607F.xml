@@ -9,6 +9,6 @@
 <project path="vendor/lenovo/J607Z" name="vendor_lenovo_J607Z" remote="bigsaltyfishes" revision="eleven" />
 
 <!-- Kernel for J607F  -->
-<project path="kernel/lenovo/J607Z" name="kernel_lenovo_J607Z" remote="bigsaltyfishes" revision="eleven" />
+<project path="kernel/lenovo/J607Z" name="kernel_lenovo_J607Z" remote="bigsaltyfishes" revision="twelve" />
 
 </manifest>
