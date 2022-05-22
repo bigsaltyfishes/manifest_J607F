@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="bigsaltyfishes" fetch="https://github.com/bigsaltyfishes/" />
+<remote name="AOSP_APPS" fetch="https://android.googlesource.com/platform/packages/apps/" />
 
 <!-- Device Tree for J607F  -->
-<project path="device/lenovo/J607F" name="device_lenovo_J607F" remote="bigsaltyfishes" revision="snowland" />
+<project path="device/lenovo/J607F" name="device_lenovo_J607F" remote="bigsaltyfishes" revision="evolution" />
 
 <!-- Vendor Blobs for J607F  -->
 <project path="vendor/lenovo/J607Z" name="vendor_lenovo_J607Z" remote="bigsaltyfishes" revision="eleven" />
 
 <!-- Kernel for J607F  -->
-<project path="kernel/lenovo/J607Z" name="kernel_lenovo_J607Z" remote="bigsaltyfishes" revision="twelve" />
+<project path="kernel/lenovo/J607Z" name="kernel_lenovo_J607Z" remote="bigsaltyfishes" revision="twelve" /
+
+<!-- Wallpaper Picker for tablet -->
+<project path="packages/apps/WallpaperPicker" name="WallpaperPicker" remote="AOSP_APPS" revision="android-12.1.0_r5" />
+
+<!-- Lawnchair -->
+<project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="bigsaltyfishes" revision="master" />
 
 </manifest>
